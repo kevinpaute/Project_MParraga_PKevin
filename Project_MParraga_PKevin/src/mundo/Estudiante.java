@@ -1,3 +1,4 @@
+package mundo;
 
 public class Estudiante extends Persona{ 	//Extension de la clase Persona
 	
