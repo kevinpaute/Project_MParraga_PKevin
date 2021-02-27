@@ -16,5 +16,34 @@ public class Estudiante extends Persona{ 	//Extension de la clase Persona
 			this.email = email;
 			this.carrera = carrera;
 		}
+		
+		public String getCodigo() {
+			return codigo;
+		}
 
+		public void setCodigo(String codigo) {
+			this.codigo = codigo;
+		}
+
+		public String getEmail() {
+			return email;
+		}
+
+		public void setEmail(String email) {
+			this.email = email;
+		}
+
+		public String getCarrera() {
+			return carrera;
+		}
+
+		public void setCarrera(String carrera) {
+			this.carrera = carrera;
+		}
+
+		@Override
+		public String toString() {
+			super.toString();
+			return "Persona "+ super.toString()+"Estudiante [codigo=" + codigo + ", email=" + email + ", carrera=" + carrera + "]";
+		}
 }

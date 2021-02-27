@@ -10,4 +10,25 @@ public class Empleado extends Persona{ //Extension de la clase Persona
 		this.cargo = cargo;
 		this.sueldo = sueldo;
 	}
+	
+	public String getCargo() {
+		return cargo;
+	}
+
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
+
+	public String getSueldo() {
+		return sueldo;
+	}
+
+	public void setSueldo(String sueldo) {
+		this.sueldo = sueldo;
+	}
+
+	@Override
+	public String toString() {
+		return "Empleado [ nombre=" + nombre + ", cedula=" + cedula + "cargo=" + cargo + ", sueldo=" +sueldo + "]";
+	}
 }
